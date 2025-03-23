@@ -15,3 +15,11 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 - Instalando React Router
 - Criando as primeiras rotas
+
+---
+
+## [1.0.2] - 2025-03-22
+
+### Adicionado
+
+- Layouts da aplicacao
