@@ -36,3 +36,9 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 - Instalando react-hook-form, zod e hookform/resolvers
+
+## [1.0.5] - 2025-03-23
+
+### Adicionado
+
+- Notificacao toast
