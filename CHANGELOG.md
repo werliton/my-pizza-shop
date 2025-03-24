@@ -23,3 +23,16 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 - Layouts da aplicacao
+
+## [1.0.3] - 2025-03-22
+
+### Adicionado
+
+- Estilizando tela de login
+- Alterando tema
+
+## [1.0.4] - 2025-03-23
+
+### Adicionado
+
+- Instalando react-hook-form, zod e hookform/resolvers
