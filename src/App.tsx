@@ -1,10 +1,16 @@
-import { Button } from '@/components/ui/button';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
+import { BrowserRouter } from 'react-router';
+import { Toaster } from 'sonner';
+import { Routes } from './routes';
 
 export function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <h1>Ola inicio</h1>
-      <Button>Click me</Button>
-    </div>
+    <HelmetProvider>
+      <Helmet titleTemplate="%s | pizza.shop" />
+      <Toaster richColors position="top-right" />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }

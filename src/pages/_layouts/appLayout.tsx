@@ -9,12 +9,12 @@ export const AppLayout = () => {
         <ul className="flex mt-2 gap-1">
           <li>
             <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Inicio
+              Dashboard
             </NavLink>
           </li>
           <li>
-            <NavLink to="/dashboard" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Dashboard
+            <NavLink to="/sign-in" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Signin
             </NavLink>
           </li>
         </ul>
