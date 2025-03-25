@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ButtonLink } from '@/components/ui/buttonLink';
+import { ButtonLink } from '@/components/buttonLink';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Helmet } from 'react-helmet-async';

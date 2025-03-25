@@ -1,26 +1,14 @@
-import { NavLink, Outlet } from 'react-router';
+import { Header } from '@/components/header';
+import { Outlet } from 'react-router';
 
 export const AppLayout = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
-        <h1>Header do layout</h1>
-
-        <ul className="flex mt-2 gap-1">
-          <li>
-            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Dashboard
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/sign-in" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Signin
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-      <div className="flex flex-col justify-center items-center bg-gray-500 min-h-svh">
-        <Outlet />
+      <div className="flex flex-col min-h-screen antialiased">
+        <Header />
+        <div className="flex flex-col flex-1 gap-4 p-8 pt-6">
+          <Outlet />
+        </div>
       </div>
     </>
   );
