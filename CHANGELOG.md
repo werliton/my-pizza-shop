@@ -49,3 +49,9 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 - Página de cadastro
 - layout do app com header
+
+## [1.0.7] - 2025-03-25
+
+### Adicionado
+
+-ThemeToggle e menu da conta
