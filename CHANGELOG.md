@@ -67,4 +67,10 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 ### Adicionado
 
-- Criando paginacao
+- Criando componente de paginacao
+
+## [1.0.8] - 2025-03-27
+
+### Adicionado
+
+- Criando componente de detalhes do pedido
