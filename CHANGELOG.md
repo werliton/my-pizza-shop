@@ -55,3 +55,9 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 -ThemeToggle e menu da conta
+
+## [1.0.7] - 2025-03-26
+
+### Adicionado
+
+- Página: Listagem de pedidos
