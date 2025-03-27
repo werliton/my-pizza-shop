@@ -62,3 +62,9 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 - Página: Listagem de pedidos
 - Filtros de pedidos
+
+## [1.0.7] - 2025-03-26
+
+### Adicionado
+
+- Criando paginacao
