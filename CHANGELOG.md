@@ -61,3 +61,4 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 - Página: Listagem de pedidos
+- Filtros de pedidos
