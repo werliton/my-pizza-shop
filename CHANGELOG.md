@@ -73,10 +73,6 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 ### Adicionado
 
-- Criando componente de detalhes do pedido
-
-## [1.0.11] - 2025-03-27
-
-### Adicionado
-
-- Criando componente de Cards e adicionando ao Dashboard
+- Componente de detalhes do pedido
+- Componente de Cards e adicionando ao Dashboard
+- Gráfico de receita no período

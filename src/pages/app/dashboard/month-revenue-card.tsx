@@ -5,7 +5,7 @@ export const MonthRevenueCard = () => {
   return (
     <Card>
       <CardHeader className="grid-cols-2 items-center pb-2">
-        <CardTitle className="text-base font-semibold ">Receita total (mês)</CardTitle>
+        <CardTitle className="text-base font-semibold lg:text-sm">Receita total (mês)</CardTitle>
         <DollarSign className="h-4 w-4 text-muted-foreground text-right justify-self-end" />
       </CardHeader>
 
