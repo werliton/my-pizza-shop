@@ -56,21 +56,27 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 -ThemeToggle e menu da conta
 
-## [1.0.7] - 2025-03-26
+## [1.0.8] - 2025-03-26
 
 ### Adicionado
 
 - Página: Listagem de pedidos
 - Filtros de pedidos
 
-## [1.0.7] - 2025-03-26
+## [1.0.9] - 2025-03-26
 
 ### Adicionado
 
 - Criando componente de paginacao
 
-## [1.0.8] - 2025-03-27
+## [1.0.10] - 2025-03-27
 
 ### Adicionado
 
 - Criando componente de detalhes do pedido
+
+## [1.0.11] - 2025-03-27
+
+### Adicionado
+
+- Criando componente de Cards e adicionando ao Dashboard
