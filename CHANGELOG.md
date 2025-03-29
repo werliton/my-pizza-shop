@@ -82,3 +82,4 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 - Gráfico de produtos populares
+- Página 4040(Not Found)

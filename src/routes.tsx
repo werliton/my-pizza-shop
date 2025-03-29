@@ -5,6 +5,7 @@ import { AppLayout } from './pages/_layouts/appLayout';
 import { AuthLayout } from './pages/_layouts/authLayout';
 import { SignUp } from './pages/auth/signUp';
 import { Orders } from './pages/app/orders/orders';
+import { Error404 } from './pages/error404';
 
 export const Routes = () => (
   <RouteWrapper>
@@ -12,9 +13,10 @@ export const Routes = () => (
       <Route index element={<Dashboard />} />
       <Route path="orders" element={<Orders />} />
     </Route>
-    <Route path="/" element={<AuthLayout />}>
+    <Route element={<AuthLayout />}>
       <Route index path="sign-in" element={<SignIn />} />
       <Route path="sign-up" element={<SignUp />} />
     </Route>
+    <Route path="*" element={<Error404 />} />
   </RouteWrapper>
 );
