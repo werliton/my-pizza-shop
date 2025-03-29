@@ -91,3 +91,4 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 - Axios e React-Query
 - Autenticando usuário
 - Cadastro de restaurante
+- Perfil no cabeçalho
