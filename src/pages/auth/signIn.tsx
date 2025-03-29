@@ -8,6 +8,7 @@ import { toast } from 'sonner';
 import { z } from 'zod';
 import { useMutation } from '@tanstack/react-query';
 import { signIn } from '@/api/sign-in';
+import { useSearchParams } from 'react-router';
 
 const signInForm = z.object({
   email: z.string().email(),
@@ -16,11 +17,16 @@ const signInForm = z.object({
 type TSignInForm = z.infer<typeof signInForm>;
 
 export const SignIn = () => {
+  const [searchParams] = useSearchParams();
   const {
     register,
     handleSubmit,
     formState: { isSubmitting },
-  } = useForm<TSignInForm>();
+  } = useForm<TSignInForm>({
+    defaultValues: {
+      email: searchParams.get('email') || '',
+    },
+  });
 
   const { mutateAsync: authenticate } = useMutation({
     mutationFn: signIn,
