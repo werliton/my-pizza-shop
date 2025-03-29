@@ -6,6 +6,8 @@ import { Helmet } from 'react-helmet-async';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import { z } from 'zod';
+import { useMutation } from '@tanstack/react-query';
+import { signIn } from '@/api/sign-in';
 
 const signInForm = z.object({
   email: z.string().email(),
@@ -20,10 +22,13 @@ export const SignIn = () => {
     formState: { isSubmitting },
   } = useForm<TSignInForm>();
 
+  const { mutateAsync: authenticate } = useMutation({
+    mutationFn: signIn,
+  });
+
   async function handleSignIn(data: TSignInForm) {
-    console.log(data);
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      await authenticate({ email: data.email });
       toast.success('Enviamos um link de autenticação para seu email.');
     } catch {
       toast.error('Erro ao efetuar login. Tente novamente.');

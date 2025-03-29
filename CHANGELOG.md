@@ -89,3 +89,4 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 ### Adicionado
 
 - Axios e React-Query
+- Autenticando usuário
