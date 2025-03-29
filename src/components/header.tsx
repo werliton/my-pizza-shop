@@ -1,8 +1,8 @@
 import { Home, Pizza, UtensilsCrossed } from 'lucide-react';
 import { Separator } from './ui/separator';
 import { NavLink } from './navLink';
-import { ModeToggle } from './ModeToggle';
-import { AccountMenu } from './AccountMenu';
+import { ModeToggle } from './modeToggle';
+import { AccountMenu } from './accountMenu';
 
 export const Header = () => {
   return (

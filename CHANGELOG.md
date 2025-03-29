@@ -83,3 +83,9 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 
 - Gráfico de produtos populares
 - Página 4040(Not Found)
+
+## [1.0.12] - 2025-03-29
+
+### Adicionado
+
+- Axios e React-Query
