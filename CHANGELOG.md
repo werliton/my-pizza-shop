@@ -92,3 +92,4 @@ Todas as mudanças notáveis deste projeto serão documentadas aqui.
 - Autenticando usuário
 - Cadastro de restaurante
 - Perfil no cabeçalho
+- Loading state no perfil
